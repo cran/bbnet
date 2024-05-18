@@ -25,7 +25,7 @@ bbn.predict(bbn.model = my_BBN, priors1 = dogwhelk, figure = 0) # figure set to 
 bbn.predict(bbn.model = my_BBN, priors1 = dogwhelk, priors2 = winkle, priors3= combined, figure = 2, boot_max = 100, values = 0, font.size = 7)
 
 ## -----------------------------------------------------------------------------
-bbn.timeseries(bbn.model = my_BBN, priors1 = combined, timesteps = 5, disturbance = 2)
+bbn.timeseries(bbn.model = my_BBN, priors1 = combined, timesteps = 6, disturbance = 2)
 
 ## -----------------------------------------------------------------------------
 bbn.visualise(bbn.model = my_BBN, priors1 = combined, timesteps = 5, disturbance = 2, threshold=0.05, font.size=0.7, arrow.size=4)

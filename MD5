@@ -1,6 +1,6 @@
-0eb875f7376c9fd59483f9749020b289 *DESCRIPTION
+6fcaaf000a158990402866b9b9dbe929 *DESCRIPTION
 a3a8b429412189ac5c3324b29767b28a *NAMESPACE
-f8434e7229d1d5803b69ce745966fb1f *NEWS.md
+8a9c98d0145d6d279554fc026b2e98c4 *NEWS.md
 78bc2a29910e45005de7fb38b77b2ba4 *R/IsEmpty.R
 684e3ffc5dcf2be36274770784130e76 *R/MPANetwork.R
 4bf19798335a282a26ed97dcdf00548a *R/Multiplot.R
@@ -17,7 +17,7 @@ f3993df3abc7be6d0dff71776dc2dbbb *R/my_BBN.R
 566dc0a6086940d7d4844f967be1a6be *R/my_network.R
 afc93d85336987a8b518fae660383e33 *R/winkle.R
 f4ae298f053837e97b900c2518bc7662 *R/zzz.R
-e9ec24c0e578b67aa56b0e6e04e73a3b *README.md
+67f2de86c99169566bb8a335c1dad47d *README.md
 ba0dbe90c795be98f01d4f7422ca42b0 *build/vignette.rds
 51c92ca30aac9794422ba057aaed8f0b *data/MPANetwork.rda
 a9acc23e91f2693777d0084500ab7ee1 *data/NoPotting.rda
@@ -27,9 +27,9 @@ b2d01d43958854eb7b049ea43f5874a9 *data/dogwhelk.rda
 0bb254ad09bdd66d301c9339aed36162 *data/my_BBN.rda
 2dedee2fdc24ae4e401485b2b6f96b93 *data/my_network.rda
 0ff431b3a4dea40e8b99aa31127a8c09 *data/winkle.rda
-73d0e1ca78aef8a5652cb0c6eb5426be *inst/doc/bbnet.R
-57ddd91db09cae3a5eb8e1eebacb2a48 *inst/doc/bbnet.Rmd
-b725308fa07bb1ac6117d5210e7bff9f *inst/doc/bbnet.html
+f887176cbee8dc14c170cf7934296c2f *inst/doc/bbnet.R
+cf438b645943a650a8eaa25311fe4c78 *inst/doc/bbnet.Rmd
+3d3616ffa16b708a938b6dd98986ca8b *inst/doc/bbnet.html
 19fa0e4a153038898cf3414cc551dd53 *man/MPANetwork.Rd
 a2908a29f117130394e0c8fa7ed4e6ec *man/NoPotting.Rd
 c5c046ed795eb54aac15459009d68ec6 *man/NoTake.Rd
@@ -44,13 +44,13 @@ c58a23c9321edc05d6b616dce4ee4d93 *man/bbn.visualise.Rd
 502a5f8dd6ba90060101596366cb7d58 *man/figures/README-pressure-1.png
 3f13b8ab9e071fbbbc670b7c30527502 *man/figures/README-unnamed-chunk-10-1.png
 6b3650585ab9a28e0d3c1dcae5ad6947 *man/figures/README-unnamed-chunk-10-2.png
-3f4f506ade1c39a38685ea4a2df1c520 *man/figures/README-unnamed-chunk-10-3.png
+c550cacc1f4243553339275c9fd72d7e *man/figures/README-unnamed-chunk-10-3.png
 81aff24886ca1f4fa21962a57aaf607d *man/figures/README-unnamed-chunk-10-4.png
 3f13b8ab9e071fbbbc670b7c30527502 *man/figures/README-unnamed-chunk-11-1.png
 6b3650585ab9a28e0d3c1dcae5ad6947 *man/figures/README-unnamed-chunk-11-2.png
 05c8b5008336805cbca211f745e1215f *man/figures/README-unnamed-chunk-11-3.png
 81aff24886ca1f4fa21962a57aaf607d *man/figures/README-unnamed-chunk-11-4.png
-cf43c7ff3992b9a77af6f7d2df86599a *man/figures/README-unnamed-chunk-5-1.png
+90c92c3c3723d1e72c22f0c8b2f7666a *man/figures/README-unnamed-chunk-5-1.png
 413504183826607f63bd0ab2f51e0eb9 *man/figures/README-unnamed-chunk-6-1.png
 49a73adf52680296b35b7132e330fadd *man/figures/README-unnamed-chunk-6-2.png
 6dd27a04bd8f42786fa3f438f251beb1 *man/figures/README-unnamed-chunk-6-3.png
@@ -69,7 +69,7 @@ f33a5a95fd0600f167689d47e588a023 *man/figures/README-unnamed-chunk-6-8.png
 504168b2ac4e7f92c218f15fc7c735ca *man/figures/README-unnamed-chunk-7-7.png
 b5ce9ea7bb6f0f5a9e10221c15ac2e84 *man/figures/README-unnamed-chunk-7-8.png
 c5a1e2a82436577a982dbb0bbe1f2f55 *man/figures/README-unnamed-chunk-7-9.png
-b5ad5033f8f358252bf7ba1fd0783627 *man/figures/README-unnamed-chunk-8-1.png
+11719044ae3a9e30947a32f93bfd11d4 *man/figures/README-unnamed-chunk-8-1.png
 3722f5e5a099415e30ca12363486fc4e *man/figures/README-unnamed-chunk-8-2.png
 6a87f9f8f292362d474c22b1dccf8344 *man/figures/README-unnamed-chunk-8-3.png
 1531f425b0c2b57b232a322e50003b5c *man/figures/README-unnamed-chunk-8-4.png
@@ -90,4 +90,4 @@ fabca421f7cde14ca6149d0ff5b87139 *tests/testthat/BBN_Output_RenameMe.pdf
 44aa4ef3ef984b7334943e0fcc1579d7 *tests/testthat/test-bbn.sensitivity.R
 45d895b1c02058a8a4030e704d9a4dd4 *tests/testthat/test-bbn.timeseries.R
 6654c2fc757b0ff8d6ef530fe2478ffc *tests/testthat/test-bbn.visualise.R
-57ddd91db09cae3a5eb8e1eebacb2a48 *vignettes/bbnet.Rmd
+cf438b645943a650a8eaa25311fe4c78 *vignettes/bbnet.Rmd
