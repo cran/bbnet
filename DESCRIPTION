@@ -1,7 +1,7 @@
 Type: Package
 Package: bbnet
 Title: Create Simple Predictive Models on Bayesian Belief Networks
-Version: 1.0.1
+Version: 1.1.0
 Authors@R: c(
     person("Victoria", "Dominguez Almela", , "vda1r22@soton.ac.uk", role = c("cre","aut"),
            comment = c(ORCID = "0000-0003-4877-5967")),
@@ -20,9 +20,9 @@ RoxygenNote: 7.3.1
 Suggests: knitr, rmarkdown, testthat
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2024-05-18 10:07:35 UTC; vda1r22
+Packaged: 2025-01-23 12:25:57 UTC; vda1r22
 Author: Victoria Dominguez Almela [cre, aut]
     (<https://orcid.org/0000-0003-4877-5967>),
   Richard Stafford [cph, aut] (<https://orcid.org/0000-0002-1964-5787>)
 Repository: CRAN
-Date/Publication: 2024-05-18 13:20:03 UTC
+Date/Publication: 2025-01-23 12:40:02 UTC
