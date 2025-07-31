@@ -53,6 +53,7 @@ accommodating multiple \code{priors} scenarios and allowing for \code{bootstrapp
 }
 \examples{
 data(my_BBN, combined)
+# Run the prediction
 bbn.predict(bbn.model = my_BBN, priors1 = combined, boot_max=100, values=1, figure=1, font.size=5)
 
 }

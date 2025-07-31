@@ -1,3 +1,12 @@
+# bbnet 1.2.0
+
+==============
+
+Changes:
+* Updated the bbn.predict to allow the storage of model outputs.
+* Updated README to show example on how to storage model outputs.
+* Modification of bbn.predict and bbn.sensitivity algorithms to more efficiently combine results from multiple inputs nodes.
+
 # bbnet 1.1.0
 
 ==============

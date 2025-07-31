@@ -25,6 +25,10 @@ bbn.predict(bbn.model = my_BBN, priors1 = dogwhelk, figure = 0) # figure set to 
 bbn.predict(bbn.model = my_BBN, priors1 = dogwhelk, priors2 = winkle, priors3= combined, figure = 2, boot_max = 100, values = 0, font.size = 7)
 
 ## -----------------------------------------------------------------------------
+results <- bbn.predict(bbn.model = my_BBN, priors1 = dogwhelk, priors2 = winkle, priors3= combined, figure = 0, boot_max = 100, values = 1, font.size = 7)
+results[[2]]$summary  # view the numeric output for scenario 2
+
+## -----------------------------------------------------------------------------
 bbn.timeseries(bbn.model = my_BBN, priors1 = combined, timesteps = 6, disturbance = 2)
 
 ## -----------------------------------------------------------------------------
